@@ -4,7 +4,7 @@ body * {
 }
 
 html {
-  background: url('https://images.all-free-download.com/images/graphiclarge/green_leaf_background_01_vector_182019.jpg');
+  /* background: url('https://images.all-free-download.com/images/graphiclarge/green_leaf_background_01_vector_182019.jpg'); */
    
   
 }
@@ -16,7 +16,6 @@ html {
 body {
 	font-family: 'Stylish', sans-serif;
 	background-color: #ffffff;
-	background: url('images/jungle.jpg') fixed no-repeat;
 	color: #2444d4;
 }
 
