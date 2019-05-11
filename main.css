@@ -8,3 +8,25 @@ html {
    
   
 }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Stylish', sans-serif;
+	background-color: #ffffff;
+	background: url('images/jungle.jpg') fixed no-repeat;
+	
+	color: #363946;
+}
+
+
+
+
+
+
+
+
+
+
