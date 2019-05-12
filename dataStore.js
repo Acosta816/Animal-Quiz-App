@@ -30,7 +30,7 @@ const STORE = [ //This is an array of objects. The objects are the different vie
     },
     {
       question: 'Which of these statements (if any) is true?',
-      answers: ['Snakes cannot slither on glass', 'Honey Bees can be trained to detect bombs', 'Cat urine glows under a black light', 'NONE are true', 'All are true'],
+      answers: ['Snakes cannot slither on glass', 'Honey Bees can be trained to detect bombs', 'Cat urine glows under a black light', 'All are true'],
       correctAnswer: 'All are true',
       icon: 'https://previews.123rf.com/images/pushnova/pushnova1510/pushnova151000248/46373143-save-animals-emblem-animal-planet-animals-world-cute-animals-in-a-circle-shape.jpg',
       alt: 'animal bunch icon'

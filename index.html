@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang ='en'>
 <head>
-    
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Test your knowledge of random but interesting animal facts">
@@ -12,15 +12,15 @@
     
 </head>
 
-<body>
+<body class="big-box">
 
     <header role="banner">
       <div class="col-4">
       </div>
       <div class="col-8">
         <ul>
-          <li>Question: <span class="questionNumber">0</span>/5</li>
-          <li>Score: <span class="score">0</span></li>
+          <li>Question: <span class="question-number-display">1</span>/5</li>
+          <li>Score: <span class="score-display">0</span></li>
         </ul>
       </div>
     </header>
@@ -36,10 +36,17 @@
       <div class="js-question-answer-form"> </div>
     </main>
     
-
+    <footer role="navigation">
+        <div class="col-4">
+        </div>
+        <div class="col-8">
+        <button type="button" class="js-next-button">NEXT</button>
+        </div>
+    </footer>
 
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="dataStore.js"></script>
     <script src="index.js"></script>
+
   </body>
 </html>

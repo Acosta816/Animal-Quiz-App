@@ -4,9 +4,8 @@ body * {
 }
 
 html {
-  /* background: url('https://images.all-free-download.com/images/graphiclarge/green_leaf_background_01_vector_182019.jpg'); */
+background: url('https://images.all-free-download.com/images/graphiclarge/green_leaf_background_01_vector_182019.jpg');
    
-  
 }
 
 * {
@@ -20,8 +19,20 @@ body {
 }
 
 
+.js-next-button {
+	display: none;
+}
 
+.big-box {
+	border: 2px solid black;
+}
 
+.icon {
+	width: 60px;
+	height: 60px;
+	border: 1px solid gold;
+	border-radius: 100%;
+}
 
 
 
