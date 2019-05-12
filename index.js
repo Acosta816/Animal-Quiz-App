@@ -83,6 +83,7 @@ function renderResults(userScore){
         <p>YOU RECEIVED THE BUTCHER EMBLEM</p> 
     </div>`
     }
+    $('.js-restart-button').show();
     return finalScoreHTML;
 }
 //--------------------------------------------------------------------------------------END
