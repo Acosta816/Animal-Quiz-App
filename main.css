@@ -1,6 +1,12 @@
-body * {
+*{
 	box-sizing: border-box;
-	border: 2px solid blue;
+	border: 1px solid blue;
+}
+
+
+body {
+	font-family: 'Stylish', sans-serif;
+	color: #2444d4;
 }
 
 html {
@@ -8,14 +14,16 @@ background: url('https://images.all-free-download.com/images/graphiclarge/green_
    
 }
 
-* {
-	margin: 0;
-	padding: 0;
+.big-box {
+	border: 2px solid black;  /*for the container of the entire screen*/
 }
-body {
-	font-family: 'Stylish', sans-serif;
-	background-color: #ffffff;
-	color: #2444d4;
+
+.icon {
+	background-color: goldenrod;
+	width: 200px;
+	height: 200px;
+	border: 6px solid rgb(128, 108, 0);
+	border-radius: 100%;
 }
 
 
@@ -23,20 +31,8 @@ body {
 	display: none;
 }
 
-.big-box {
-	border: 2px solid black;
-}
-
-.icon {
-	width: 200px;
-	height: 200px;
-	border: 1px solid gold;
-	border-radius: 100%;
+.ranking-html {
 	text-align: center;
+	border: 2px solid gold;
 }
-
-
-
-
-
 
