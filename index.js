@@ -18,12 +18,14 @@ function displayFeedback(userChoice){ //This one generates the FEEDBACK HTML
     let answerView = "";
     if(userChoice === correct ){
         score ++;
-        answerView =  `<div>
+        answerView =  `<div class ='right-wrong-html'>
+        <img class = "animal-picture" src="${STORE[questionNumber].icon}">
                     <h2>You Got it RIGHT!</h2>
                     <p>correct answer: ${correct}</p>
                 </div>`;
     } else {
-        answerView = `<div>
+        answerView = `<div class ='right-wrong-html'>
+        <img class = "animal-picture" src="${STORE[questionNumber].icon}">
                     <h2>THATS WRONG,... READ A BOOK!</h2>
                     <p>correct answer: ${correct}</p>
                 </div>`;
@@ -71,13 +73,13 @@ $('footer').on('click', '.js-next-button', event=> {
 function renderResults(userScore){
     let finalScoreHTML = "";
     if(userScore < STORE.length/2){
-        finalScoreHTML = `<div class="ranking-html">
+        finalScoreHTML = `<div class="ranking-html water">
         <h2>Looks like you need to visit a zoo or read a book...</h2>
         <img class="icon" src= "http://icons.iconarchive.com/icons/martin-berube/flat-animal/96/gold-fish-icon.png">
         <p>YOU RECEIVED THE GOLDFISH EMBLEM</p> 
     </div>`
     } else {
-        finalScoreHTML = `<div class="ranking-html">
+        finalScoreHTML = `<div class="ranking-html water">
         <h2>NOT BAD! You know your meats! You could go work for a Butcher if you wanted to!!!</h2>
         <img class="icon" src= "https://d1jp63uxrnx10jb5u2tz125u-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/meatbutcher-dp250x250.jpg">
         <p>YOU RECEIVED THE BUTCHER EMBLEM</p> 
@@ -93,26 +95,36 @@ function renderResults(userScore){
 //this will generate the htmlfor the questions, basically the view
 function generateQuestion() {
     if(questionNumber < STORE.length){ //accessing question object by STORE index using the questionNumber as the cycler/iterator
-        return `<div class="question-${questionNumber}">
+        return `
+        <div class="question-${questionNumber} window">
+        <img class = "animal-picture" src="${STORE[questionNumber].mystery}">
         <h2>${STORE[questionNumber].question}</h2>  
+
         <form>
         <fieldset>
-        <label class="answerOption">
+        <div class="answerOptionA">
+        <label>
         <input type="radio" value="${STORE[questionNumber].answers[0]}" name="answer" required>
         <span>${STORE[questionNumber].answers[0]}</span>
         </label>
-        <label class="answerOption">
+
+        <label>
         <input type="radio" value="${STORE[questionNumber].answers[1]}" name="answer" required>
         <span>${STORE[questionNumber].answers[1]}</span>
         </label>
-        <label class="answerOption">
+        </div>
+
+        <div class="answerOptionB">
+        <label>
         <input type="radio" value="${STORE[questionNumber].answers[2]}" name="answer" required>
         <span>${STORE[questionNumber].answers[2]}</span>
         </label>
-        <label class="answerOption">
+        <label>
         <input type="radio" value="${STORE[questionNumber].answers[3]}" name="answer" required>
         <span>${STORE[questionNumber].answers[3]}</span>
         </label>
+        </div>
+
         <button type="submit" class="js-submit-button">Submit</button>
         </fieldset>
         </form>

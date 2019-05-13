@@ -11,45 +11,44 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
     
 </head>
 
-<body class="big-box">
+<body>
 
-    <header role="banner">
-      <div class="col-4">
-      </div>
-      <div class="col-8">
-        <ul>
+  <div class="big-box">
+    <header class="banner" role="banner">
+      <h1 class='banner-title'>Aniaml Quiz</h1>
+        <ul><img src="https://cdn.pixabay.com/photo/2014/04/03/10/11/question-mark-310100_960_720.png" alt="question mark icon" class='mini-icon'/>
           <li>Question: <span class="question-number-display">1</span>/5</li>
+          <img src="https://cdn1.iconfinder.com/data/icons/cash-coin-essentials-colored/48/JD-09-512.png" alt="coin score" class='mini-icon'/>
           <li>Score: <span class="score-display">0</span></li>
         </ul>
-      </div>
     </header>
 
     <main role="main">
 
       <div class="js-quiz-start">
-        <h1>Are you ready to test your RANDOM ANIMAL FACTS?</h1>
+        <h2 class="start-question">Are you ready to test your RANDOM ANIMAL FACTS?</h2>
         <button type="button" class="js-start-button">START</button> 
       </div>
 
 
-      <div class="js-question-answer-form"> </div>
+      <div class="js-question-answer-form"></div>
     </main>
     
     <footer role="navigation">
-        <div class="col-4">
-        </div>
-        <div class="col-8">
         <button type="button" class="js-next-button">NEXT</button>  <!--START button-->
         <input class="js-restart-button" type="button" value="TRY AGAIN??" onClick="location.href=location.href"> <!--Try again button-->
-        </div>
     </footer>
 
+  </div>
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="dataStore.js"></script>
     <script src="index.js"></script>
+
+  
 
   </body>
 </html>

@@ -1,21 +1,33 @@
 *{
 	box-sizing: border-box;
-	border: 1px solid blue;
+}
+
+.right-wrong-html {
+	text-align: center;
 }
 
 
 body {
 	font-family: 'Stylish', sans-serif;
-	color: #2444d4;
+	color: #ff7300;
+	display: relative;
+	background-image: url('https://cdn4.vectorstock.com/i/1000x1000/62/23/hornbill-and-deer-in-tropical-jungle-background-vector-21366223.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-html {
-background: url('https://images.all-free-download.com/images/graphiclarge/green_leaf_background_01_vector_182019.jpg');
-   
+body * {
+	margin: 10px;
 }
 
 .big-box {
-	border: 2px solid black;  /*for the container of the entire screen*/
+	/*border: 2px solid black;*/  /*for the container of the entire screen*/
+}
+
+label span, label input {
+	font-size: 25px;
+	color:blue;
+	margin-left: 0px;
 }
 
 .icon {
@@ -24,15 +36,170 @@ background: url('https://images.all-free-download.com/images/graphiclarge/green_
 	height: 200px;
 	border: 6px solid rgb(128, 108, 0);
 	border-radius: 100%;
+	display: inline-block;
+	
+}
+
+.mini-icon {
+	border: 1px solid black;
+	background-color: white;
+	border-radius:100%;
+	width:35px;
+	margin-right: 0px;
+	margin-bottom: -7px;
+	background-image: url("https://cdn1.iconfinder.com/data/icons/cash-coin-essentials-colored/48/JD-09-512.png");
+}
+
+.animal-picture{
+	max-width: 300px;
+	height: auto;
 }
 
 
 .js-next-button, .js-restart-button {
 	display: none;
+	width: 200px;
+	border: 1px solid blue;
+	border-radius: 13px;
+	background-color : green;
+	font-size: 30px;
+}
+
+.js-start-button, .js-submit-button {
+	width: 200px;
+	border: 1px solid blue;
+	border-radius: 13px;
+	background-color : green;
+	font-size: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.water {
+	background-image: url("https://thumbs.gfycat.com/TenderPersonalBlueshark.webp");
+}
+
+.js-start-button {
+	font-size: 40px;
+}
+
+.js-quiz-start {
+	text-align: center;
 }
 
 .ranking-html {
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	border: 2px solid gold;
 }
 
+.ranking-html img {
+	border: 6px solid gold;
+
+}
+
+.ranking-html h2, .ranking-html p {
+	border-radius: 13px;
+	background-color: rgba(255, 255, 255, 0.692);
+	font-size: 30px;
+}
+
+.banner {  
+	border: 3px solid rgb(212, 146, 60);
+	border-radius: 20px;
+	position: relative;
+	text-align: center;
+	background-color: rgba(127, 178, 255, 0.623)
+}
+
+.banner-title {
+	display: inline-block;
+	font-size: 100px;
+}
+
+.banner * {
+	font-family: 'Cabin Sketch', cursive;
+}
+
+ul {
+	
+	color: black;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+}
+
+li {
+	
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+h2.start-question {
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.692);
+	color: blue;
+	font-size: 50px;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+
+
+h2 {
+	color: blue;
+}
+
+footer {
+	text-align: center;
+}
+
+.window {
+	position: relative;
+	border: 2px solid rgb(212, 146, 60);
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width:500px;
+	background-color: rgba(127, 178, 255, 0.623);
+}
+
+.window h2 {
+	border-radius: 13px;
+	background-color: rgba(255, 255, 255, 0.945);
+}
+
+.answerOptionA, .answerOptionB {
+	display: block;
+	
+}
+
+
+img {
+	border: 3px dotted rgba(0, 0, 0, 0.966);
+	border-radius: 20px;
+}
+
+fieldset label {
+	border: 1px solid rgb(56, 0, 0);
+	border-radius: 13px;
+	background-color: rgba(229, 255, 0, 0.925);
+	display:inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+/* html {
+	background: url('https://images.all-free-download.com/images/graphiclarge/green_leaf_background_01_vector_182019.jpg');
+	   
+	} */
