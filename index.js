@@ -75,13 +75,13 @@ function renderResults(userScore){
     if(userScore < STORE.length/2){
         finalScoreHTML = `<div class="ranking-html water">
         <h2>Looks like you need to visit a zoo or read a book...</h2>
-        <img class="icon" src= "http://icons.iconarchive.com/icons/martin-berube/flat-animal/96/gold-fish-icon.png">
+        <img class="icon" src= "images/gold-fish-icon.png">
         <p>YOU RECEIVED THE GOLDFISH EMBLEM</p> 
     </div>`
     } else {
         finalScoreHTML = `<div class="ranking-html water">
         <h2>NOT BAD! You know your meats! You could go work for a Butcher if you wanted to!!!</h2>
-        <img class="icon" src= "https://d1jp63uxrnx10jb5u2tz125u-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/meatbutcher-dp250x250.jpg">
+        <img class="icon" src= "images/meat_butcher.jpg">
         <p>YOU RECEIVED THE BUTCHER EMBLEM</p> 
     </div>`
     }

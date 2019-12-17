@@ -11,7 +11,7 @@ body {
 	font-family: 'Stylish', sans-serif;
 	color: #ff7300;
 	display: relative;
-	background-image: url('https://cdn4.vectorstock.com/i/1000x1000/62/23/hornbill-and-deer-in-tropical-jungle-background-vector-21366223.jpg');
+	background-image: url("images/Tropical_Rainforest_background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -47,7 +47,7 @@ label span, label input {
 	width:35px;
 	margin-right: 0px;
 	margin-bottom: -7px;
-	background-image: url("https://cdn1.iconfinder.com/data/icons/cash-coin-essentials-colored/48/JD-09-512.png");
+	background-image: url("images/score_coin.png");
 }
 
 .animal-picture{
@@ -76,7 +76,7 @@ label span, label input {
 	margin-right: auto;
 }
 .water {
-	background-image: url("https://thumbs.gfycat.com/TenderPersonalBlueshark.webp");
+	background-image: url("images/waterGif.webp");
 }
 
 .js-start-button {
@@ -202,4 +202,4 @@ fieldset label {
 /* html {
 	background: url('https://images.all-free-download.com/images/graphiclarge/green_leaf_background_01_vector_182019.jpg');
 	   
-	} */
+	} 
