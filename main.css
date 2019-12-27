@@ -47,6 +47,7 @@ label span, label input {
 	margin-right: 0px;
 	margin-bottom: -7px;
 	background-image: url("images/score_coin.png");
+	background-size: auto; 
 }
 
 .animal-picture{
