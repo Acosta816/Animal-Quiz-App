@@ -1,7 +1,7 @@
 
 
 
-const STORE = [ //This is an array of objects. The objects are the different views. Each object has a question property with string value. It has an array property with possible answer items. It has a correct answer keym an icon key, and an alt key.
+const STORE = [ //This is an array of objects. The objects are the different views. Each object has a question property with string value. It has an array property called "answers" with possible answer items. It has a correct answer key, an icon key, and an alt key.
     {
       question: 'What is a group or gathering of crows called?',
       answers: ['Herd', 'Flock', 'Murder', 'Killing'], //This key-value pair is the possible answers to choose from.

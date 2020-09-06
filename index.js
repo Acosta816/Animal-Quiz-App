@@ -4,11 +4,12 @@ let score = 0;
 //-----------------------------------------------------------------------------------BEGIN
 function renderQuestion(){
     $('.js-question-answer-form').html(generateQuestion());
-    $('.js-quiz-start').hide();
+    
 }
 //-----------------------------------------------------------------------------------END
 
 $('.js-start-button').on('click', event=>{ //This listens for when we click the START button
+    $('.js-quiz-start').hide();
     renderQuestion();
 });
 
